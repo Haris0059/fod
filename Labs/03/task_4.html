@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CV Data Entry Form</h1>
+    <hr>
+    <fieldset>
+        <legend>Personal Informations</legend>
+        <form action="#">
+            <label for="full_name">Full name:</label>
+            <input type="text" name="full_name" id="full_name">
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location">
+            <br>
+
+            <label for="profile_picture">Upload Profile Picture:</label>
+            <input type="file" name="profile_picture" id="profile_picture">
+            <br>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Introduction</legend>
+        <form action="#">
+            <label for="about_you">Write a short introdcution about yourself.</label>
+            <br>
+            <textarea name="about_you" id="about_you"></textarea>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Select your skills:</label>
+        <input type="checkbox" name="html" id="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="css" id="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" name="js" id="js">
+        <label for="js">JavaScript</label>
+        <br>
+        <input type="checkbox" name="react" id="react">
+        <label for="react">React</label>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Experience</legend>
+        <form action="#">
+            <label for="postion">Current Position:</label>
+            <input type="text" name="postion" id="postion">
+            <br>
+
+            <label for="describe">Describe your experience:</label>
+            <br>
+            <textarea name="describe" id="describe"></textarea>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Educations & Certifications</legend>
+        <label for="degree">Degree:</label>
+        <select name="degree" id="degree">
+            <option value="high_school">High School</option>
+            <option value="fax">Burch Univerzitet</option>
+        </select>
+        <br>
+
+        <label for="certifications">Certifications:</label>
+        <textarea name="certifications" id="certifications"></textarea>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Personal Projects</legend>
+        <label for="personal_projects">Describe your personal projects:</label>
+        <br>
+        <textarea name="personal_projects" id="personal_projects"></textarea>
+    </fieldset>
+</body>
+</html>
